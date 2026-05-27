@@ -11,7 +11,7 @@
 
 ## 初始化数据库
 
-项目默认连接本地 MySQL `3306` 端口，用户名 `root`，密码 `dhb0723.`，数据库名 `talking_together`。
+项目默认连接本地 MySQL `3306` 端口，数据库名 `talking_together`。
 
 ```sql
 CREATE DATABASE IF NOT EXISTS talking_together
@@ -26,7 +26,7 @@ CREATE DATABASE IF NOT EXISTS talking_together
 ```bash
 MYSQL_URL=jdbc:mysql://localhost:3306/talking_together?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
 MYSQL_USERNAME=root
-MYSQL_PASSWORD=dhb0723.
+MYSQL_PASSWORD=123456
 ```
 
 ## 启动后端
